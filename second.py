@@ -67,7 +67,7 @@ opened_difference_img1 = binary_opening( difference_img1, disk_se3)
 fig = plt.figure( figsize=( 15, 15))
 
 fig.add_subplot( 1, 4, 1)
-plt.imshow( disk_closing_img2, cmap="gray")
+plt.imshow( disk_closing_img1, cmap="gray")
 plt.title( "Second Image")
 
 fig.add_subplot( 1, 4, 2)
